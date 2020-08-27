@@ -12,8 +12,9 @@ button {
 button:hover {
   background-color: skyblue;
   color: white;
+  cursor: pointer;
   transition: 0.3s;
-  transform: scale(1.1);
+  transform: scale(0.99);
 }
 a {
   text-decoration: none;
