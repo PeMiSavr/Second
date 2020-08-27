@@ -1,6 +1,13 @@
 button {
-  border-radius: 6px;
-  background-color: red;
+  border-radius: 169px;
+  color: aliceblue;
+  font-size: 50px;
+  background: linear-gradient(45deg,#e40909, #2f10db);
   padding: 5px;
-  width: 60px;
+  width: 600px;
+  height: 600px;
+}
+button:hover {
+  background: linear-gradient(45deg,#2f10db,#e40909);
+  transition: 0.8s;
 }
