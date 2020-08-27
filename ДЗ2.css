@@ -1,9 +1,8 @@
 button {
   margin: 40px;
-  color: black;
   border-radius: 15px;
-  border-color: royalblue;
-  background-color: silver;
+  color:skyblue;
+  border-color: skyblue;
   font-size: 17px;
   padding: 5px;
   width: 60px;
@@ -12,10 +11,13 @@ button {
 }
 button:hover {
   background-color: skyblue;
-  transition: 0.8s;
-  transform: scale(1.2);
+  color: white;
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 a {
-  color: #000 !important;
+  text-decoration: none;
+}
+a:hover {
   text-decoration: none;
 }
