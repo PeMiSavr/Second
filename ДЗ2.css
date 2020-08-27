@@ -1,5 +1,6 @@
 button {
   margin: 40px;
+  color: black;
   border-radius: 15px;
   border-color: royalblue;
   background-color: silver;
@@ -13,4 +14,8 @@ button:hover {
   background-color: skyblue;
   transition: 0.8s;
   transform: scale(1.2);
+}
+a {
+  color: #000 !important;
+  text-decoration: none;
 }
